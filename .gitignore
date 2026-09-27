@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+*.env
+.env.*
+client_secret.json
+token.json
+photos_token.json
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+credentials.json
+META_TOKEN_BACKUP.txt
+policy.yaml
+cloudflared.log
+service-account-key.json
+
+# Ignore downloaded/generated images
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.HEIC
